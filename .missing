@@ -1,0 +1,4 @@
+PS1="\u@\h \W [\$(date +%k:%M:%S)]> "
+alias gp="git pull"
+alias gs="git status"
+alias dotv='echo "dotfiles loaded"'

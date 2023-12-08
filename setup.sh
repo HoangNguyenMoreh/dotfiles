@@ -1,4 +1,8 @@
 #!/bin/bash
 
-ln -nfs .bash_profile ~/.bash_profile
+ln -nfs "$(pwd)/.missing" ~/.missing
 
+if ! grep -x -q $'source ~/.missing' ~/.bashrc
+then
+  echo 'source ~/.missing' >> ~/.bashrc
+fi
