@@ -119,4 +119,3 @@ fi
 
 alias hh="echo 'Hello Hoang'"
 
-source ~/.missing
